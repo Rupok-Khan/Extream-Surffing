@@ -1,0 +1,328 @@
+.nav-item{
+    margin-left: 20px;
+}
+.nav-link{
+    font-size: 1rem;
+    color: black;
+}
+
+.navbar_logo{
+   width: 20%;
+}
+.nav-inp input{
+    padding: 5px 30px 5px 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+.nav-search{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.call-btn{
+    background-color: #322fc9;
+    padding: 3px 20px 3px 20px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    margin-top: 10px;
+}
+.call-btn i{
+    margin-right: 10px;
+}
+
+/* hero-section */
+.hero-section{
+    background-image: url(../Photos/hero-4.jpg);
+    background-repeat:no-repeat ;
+    height: 100%;
+    background-size: 100%;
+}
+.hero-text{
+   padding-top: 300px;
+   padding-bottom: 100px;
+}
+.hero-text p{
+    font-size: 3rem;
+    letter-spacing: 1rem;
+    font-weight: bold;
+}
+.hero-text h2{
+    font-size: 2.9rem;
+    color: rgb(52, 2, 189);
+}
+.hero-btn{
+    padding: 6px 40px 6px 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #322fc9;
+    color: white;
+}
+
+/* about section */
+
+.photos img{
+  height: 400px;
+  margin-top: 100px;
+}
+.learn-btn{
+    padding: 8px 30px 8px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #322fc9;
+    color: white;
+}
+
+/* services  */
+.card{
+    width: 300px;
+    margin-top: 30px;
+}
+.card img{
+    height: 100px;
+    width: 100px;
+}
+.card body h6{
+    font-weight: bold;
+}
+
+/* registration photo */
+.from{
+    background-color: #322fc9;
+    height: 100%;
+   
+    height: 650px;
+}
+.reg-photo{
+    position: relative;
+   
+    overflow: hidden;
+    height: 650px;
+}
+.reg-photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Makes the image cover the entire container */
+  
+}
+
+/* from css */
+.from-header h1{
+    font-family: protest;
+}
+.con-photo img{
+    margin-top: 90px;
+}
+.from-list{
+    width: 70%;
+}
+.from-list{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.frist_name input{
+    width:100%;
+}
+.frist_name{
+    width: 50%;
+    color: white;
+}
+
+.last-name{
+    margin-left:20px;
+    width: 50%;
+    color: white;
+}
+
+
+
+.last-name input{
+    width:100%;
+}
+
+
+.contact-list{
+    margin-top:20px;
+}
+.email{
+    width: 50%;
+    color: white;
+   
+}
+.email input{
+    width:100%;
+    
+}
+.number{
+    width: 50%;
+    margin-left:20px;
+    color: white;
+}
+.number input{
+    width:100%;
+   
+}
+
+.drop-down{
+    width: 100%;
+}
+.drop-down select{
+    width: 100%;
+     margin-top: 20px;
+     padding: 4px;
+}
+
+.message{
+    width: 100%;
+    margin-top: 20px;
+    color: white;
+}
+.message textarea{
+    width: 100%;
+    height:100px;
+}
+.submit{
+    width: 100%;
+    text-align: center;
+   
+}
+.check-box{
+    color: white;
+}
+#submit-btn{
+    margin-top: 20px;
+    padding: 8px 25px 8px 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+.ac-1{
+    background-image: url(../Photos/activites-photo-1.png);
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    height: 200px;
+    overflow: hidden;
+    width: 350px;
+}
+.ac-2{
+    background-image: url(../Photos/activites-photo-2.png);
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    height: 200px;
+    overflow: hidden;
+    width: 350px;
+}
+.ac-3{
+    background-image: url(../Photos/activites-photo-3.png);
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    width: 350px;
+    height: 200px;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+/* achivements */
+.achiv-card{
+    width: 250px;
+}
+
+/* join us */
+.join-us{
+    background-image: url(../Photos/join-us-background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+    background-color: black;
+}
+.join-text{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.join-us-btn{
+    padding: 8px 30px 8px 30px;
+    border:none;
+    background-color:  #322fc9;
+    color: white;
+    border-radius: 5px;
+}
+
+/* coch section */
+.coch-card{
+    border: none;
+}
+.coch-card img{
+    height: 250px;
+    width: 250px;
+}
+.c-social-icons i{
+    margin-left: 20px;
+    background-color: #322fc9;
+    border-radius: 50%;
+    padding: 10px;
+    color: white;
+
+}
+
+/* testmonial */
+
+/* ask-question */
+.ask-question{
+    background-color: white;
+}
+.question-photo img{
+    height: 500px;
+}
+.ask-text{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.q-1{
+    background-color: rgb(250, 250, 250);
+    border-radius: 10px;
+    align-items: center;
+    padding: 5px;
+    
+}
+.q-1 p{
+    margin-left: 10px;
+}
+.q-2{
+    background-color: rgb(250, 250, 250);
+    border-radius: 10px;
+    align-items: center;
+    padding: 5px;
+    margin-top: 10px;
+    
+}
+.q-2 p{
+    margin-left: 10px;
+}
+.q-3{
+    background-color: rgb(250, 250, 250);
+    border-radius: 10px;
+    align-items: center;
+    padding: 5px;
+    margin-top: 10px;
+    
+}
+.q-3 p{
+    margin-left: 10px;
+}
+.q-4{
+    background-color: rgb(250, 250, 250);
+    border-radius: 10px;
+    align-items: center;
+    padding: 5px;
+    margin-top: 10px;
+    
+}
+.q-4 p{
+    margin-left: 10px;
+}
